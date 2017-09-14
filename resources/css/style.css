@@ -40,7 +40,7 @@ body {
 
 
 .row {
-    max-width: 1140px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -219,7 +219,7 @@ header {
     height: 50px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .logo-black { 
@@ -239,7 +239,8 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
+    font-size: 19px;
 }
 
 .main-nav li a:link,
@@ -700,7 +701,7 @@ footer h3{
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 25%;
+    width: 33.3333%;
 }
 
 .tablink:hover {
