@@ -40,7 +40,7 @@ body {
 
 
 .row {
-    max-width: 1170px;
+    max-width: 1170px;;
     margin: 0 auto;
 }
 
@@ -216,10 +216,10 @@ header {
 }
 
 .logo {
-    height: 50px;
+    height: 40px;
     width: auto;
     float: left;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .logo-black { 
@@ -239,8 +239,15 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 30px;
-    font-size: 19px;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.main-nav dropdown dropbtn{
+    
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 18px;
 }
 
 .main-nav li a:link,
@@ -734,4 +741,75 @@ footer h3{
 #courseDesc img{
     height: 50%;
     width: 50%;
+}
+
+
+/* ----------------------------------------------- */
+/* Dropdown content*/
+/* ----------------------------------------------- */
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 18px;    
+    border: none;
+    color: white;
+    background-color: inherit;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    border-bottom: 2px solid #e67e22;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    border-bottom: 2px solid #e67e22;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+
+/* ----------------------------------------------- */
+/* Enrolling*/
+/* ----------------------------------------------- */
+table{
+    width: 100%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
 }
