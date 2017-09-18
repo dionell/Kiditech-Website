@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
         <title>Kiditech</title>
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-TileImage" content="/resources/favicons/mstile-144x144.png">
@@ -28,6 +29,14 @@
                     <div class = "item animated bounceInDown">
                     <ul class="main-nav js--main-nav">
                         <div class ="dropdown">
+                            <button class="dropbtn">KIDITECH</button>
+                            <div class="dropdown-content">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#features">About Us</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </div>   
+                        </div>
+                        <div class ="dropdown">
                             <button class="dropbtn">COURSES</button>
                             <div class="dropdown-content">
                                 <li><a href="#courses">View courses</a></li>
@@ -35,25 +44,49 @@
                             </div>   
                         </div>
                         <li><a href="#works">School Program</a></li>
-                        <div class ="dropdown">
-                            <button class="dropbtn">KIDITECH</button>
-                            <div class="dropdown-content">
-                                <li><a href="#contact">About Us</a></li>
-                                <li><a href="#contact">Contact Us</a></li>
-                            </div>   
-                        </div>
-                        <li><a href="loginUser.html">Login </a> <a href="createUser.html"> / Register</a></li>
                         <li><a href="#">Donate</a>
                         </li>
+                        <li><a href="loginUser.html">Login </a> <a href="createUser.html"> / Register</a></li>
+                        <li><a href="#"><i class="ion-android-cart icon-medium"></i>Cart</a></li>
                     </ul>
                     </div>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                    
                 </div>
             </nav>
             <div class="hero-text-box">
                 <div class = "item animated fadeInUp"><h1>Kiditech<br>We teach kids new technology.</h1></div>
             </div>
         </header>
+        
+        
+        
+        <section class="section-features js--section-features" id="features">
+        <div class="row">
+            <h2>Kiditech</h2>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2 box">
+                <i class="ion-ios-world-outline icon-big"></i>
+                <h3>About Kiditech</h3>
+                <p class="long-copy">In Kiditech's mighty world, we coach, play and celebrate an innovative technology program: K-12 STEAM. We gather at Kiditech to learn and have fun with Robots Design, 3D Design and Print, IoT with Arduino and Raspberry Pi, Game Design and more. Together, we discover the evolution of technology and have fun with science, engineering, art and math!
+                </p>
+            </div>
+            <div class="col span-1-of-2 box">
+                <i class="ion-ios-game-controller-a-outline icon-big"></i>
+                <h3>Why choose us</h3>
+                    <ul class="long-copy">
+                        <li>Largest selection of high-tech courses in the Bay Area </li>
+                        <li>Progressive course levels for children of different levels </li>
+                        <li>Project-based courses backed with a well-defined curriculum</li>
+                        <li>Great benefits with the low student-to-teacher ratio</li>
+                        <li>Highly qualified instructors with tech and engineering background </li>
+                        <li>Scholarships available for underprivileged and top performing students</li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+        
         
         <section class="section-courses js--section-courses" id="courses">
             <div class="row">
@@ -79,7 +112,7 @@
                 </div>
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/course2.jpg" alt="Demo Robot Vex IQ">
-                    <h3><a href="robotVex.html">Demo Robot Vex IQ</a></h3>
+                    <h3><a href="robotVex.html">Robot Vex IQ</a></h3>
                     <br>
                     <div class="city-feature">
                         <i class="ion-ios-people icon-small"></i>
@@ -87,7 +120,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-usd icon-small"></i>
-                        FREE
+                        <strike>$450.00</strike> $400.00
                     </div>
                     <div class="city-feature">
                         <i class="ion-ios-book icon-small"></i>
@@ -97,6 +130,7 @@
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/course5.jpg" alt="3D Design and Tinkercad">
                     <h3><a href="3DDesign.html">3D Design and Tinkercad</a></h3>
+                    <br>
                     <div class="city-feature">
                         <i class="ion-ios-people icon-small"></i>
                         0 students
@@ -156,7 +190,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-usd icon-small"></i>
-                        FREE
+                        <strike>$450.00</strike> $400.00
                     </div>
                     <div class="city-feature">
                         <i class="ion-ios-book icon-small"></i>
@@ -165,8 +199,9 @@
                 </div>
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/course7.jpg" alt="Python coding with game">
-                    <h3><a href="PythonGameDevelopment.html">Python coding with game</a></h3>
                     <br>
+                    <br>
+                    <h3><a href="PythonGameDevelopment.html">Python coding with game</a></h3>
                     <div class="city-feature">
                         <i class="ion-ios-people icon-small"></i>
                         0 students
@@ -182,8 +217,9 @@
                 </div>
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/course8.jpg" alt="Python coding with game">
-                    <h3><a href="ScratchGameDesign.html">Game design with Scratch</a></h3>
                     <br>
+                    <br>
+                    <h3><a href="ScratchGameDesign.html">Game design with Scratch</a></h3>
                     <div class="city-feature">
                         <i class="ion-ios-people icon-small"></i>
                         0 students
@@ -278,7 +314,6 @@
                                     <center><input type="submit" value="Send"></center>
                                 </div>
                             </div>
-
                         </form>
                     </div>
                 </div>
@@ -286,16 +321,18 @@
             
             
         <footer>
+            
             <div class="row">
                 <div class="col span-1-of-5">
                     <ul class="footer-nav">
-                        <li><i class="ion-ios-location icon-small"></i><a href="#">4500 Great America Parkway, STE300, Santa Clara, CA, US, 95054</a></li>
+                        <li><i class="ion-ios-location icon-small"></i><a href="https://www.google.com/maps?q=4500+Great+America+Parkway,+STE300,+Santa+Clara,+CA,+US,+95054&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj9iIT646vWAhXkrFQKHc-eDoUQ_AUICigB">4500 Great America Parkway, STE300, Santa Clara, CA, US, 95054</a></li>
                         <p></p>
                         <li><i class="ion-android-call icon-small"></i><a href="#">(01) 408 673 8765</a></li>
                         <p></p>
                         <li><i class="ion-android-mail icon-small"></i><a href="mailto:support@kiditech.org" target="_top">support@kiditech.org</a></li>
                     </ul>
                 </div>
+                
                 <div class="col span-1-of-5">
                     <ul class="footer-nav">
                         <h3>Company</h3>
@@ -348,6 +385,16 @@
                     </ul>
                 </div>
             </div>
+            
+                <div  class="row">
+                    <ul class="social-links">
+                        <li><a href="https://www.kiditech.com"><i class="ion-android-globe"></i></a></li>
+                        <li><a href="https://www.facebook.com/KiditechInc/"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/KiditechSupport"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC89mcF7I5SWfNx1E0uyHJDQ"><i class="ion-social-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/kiditech/"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
             <div class="row">
                 <p>
                     Copyright &copy; 2017 by Kiditech. All rights reserved.

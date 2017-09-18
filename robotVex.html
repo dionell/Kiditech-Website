@@ -20,18 +20,33 @@
         
     </head>
     <body>
-        <section class = "wonderdash">
+        <section class = "sticky wonderdash">
             <nav>
                 <div class="row">
                     <div class = "item animated bounceInDown"><a href="index.html"><img src="resources/img/logo.png" alt="Kiditech logo" class="logo"></a></div>
                     <a href="index.html"><img src="resources/img/logo.png" alt="Kiditech logo" class="logo-black"></a>
                     <div class = "item animated bounceInDown">
                     <ul class="main-nav js--main-nav">
-                        <li><a href="#courses">Courses</a></li>
+                        <div class ="dropdown">
+                            <button class="dropbtn">KIDITECH</button>
+                            <div class="dropdown-content">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#features">About Us</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </div>   
+                        </div>
+                        <div class ="dropdown">
+                            <button class="dropbtn">COURSES</button>
+                            <div class="dropdown-content">
+                                <li><a href="#courses">View courses</a></li>
+                                <li><a href="EnrollCourses.html">Enroll</a></li>
+                            </div>   
+                        </div>
                         <li><a href="#works">School Program</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#contact">Contact us</a></li>
-                        <li><a href="createUser.html">Register</a></li>
+                        <li><a href="#">Donate</a>
+                        </li>
+                        <li><a href="loginUser.html">Login </a> <a href="createUser.html"> / Register</a></li>
+                        <li><a href="#"><i class="ion-android-cart icon-medium"></i>Cart</a></li>
                     </ul>
                     </div>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
@@ -43,9 +58,20 @@
         <div class="row">
             <h2>Demo Robot Vex IQ</h2>
         </div>
+        <center><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form><br></center>
         <div class="row">
             <div class="col span-3-of-3 steps-box">
 
+                <button class="tablink" onclick="openCity('Description', this, 'red')" id="defaultOpen">Description</button>
+                <button class="tablink" onclick="openCity('Curriculum', this, 'green')">Curriculum</button>
+                
+                <button class="tablink" onclick="openCity('Reviews', this, 'orange')">Reviews</button>
                 <div id="Description" class="tabcontent">
                     <div class="col span-3-of-3" id="courseDesc">
                         <center><img src="resources/img/course2.jpg" alt="Wonder Dash and Dot"></center>
@@ -83,14 +109,90 @@ In this class, students experiment and discover engineering basics via trial and
                   <p></p>
                 </div>
 
-                <button class="tablink" onclick="openCity('Description', this, 'red')" id="defaultOpen">Description</button>
-                <button class="tablink" onclick="openCity('Curriculum', this, 'green')">Curriculum</button>
-                
-                <button class="tablink" onclick="openCity('Reviews', this, 'orange')">Reviews</button>
             </div>
         </div>
     </section>
-        
+     <footer>
+            
+            <div class="row">
+                <div class="col span-1-of-5">
+                    <ul class="footer-nav">
+                        <li><i class="ion-ios-location icon-small"></i><a href="https://www.google.com/maps?q=4500+Great+America+Parkway,+STE300,+Santa+Clara,+CA,+US,+95054&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj9iIT646vWAhXkrFQKHc-eDoUQ_AUICigB">4500 Great America Parkway, STE300, Santa Clara, CA, US, 95054</a></li>
+                        <p></p>
+                        <li><i class="ion-android-call icon-small"></i><a href="#">(01) 408 673 8765</a></li>
+                        <p></p>
+                        <li><i class="ion-android-mail icon-small"></i><a href="mailto:support@kiditech.org" target="_top">support@kiditech.org</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col span-1-of-5">
+                    <ul class="footer-nav">
+                        <h3>Company</h3>
+                        <li><a href='#'>About us</a></li>
+                        <br>
+                        <li><a href='#'>Blog</a></li>
+                        <br>
+                        <li><a href='#'>Contact</a></li>
+                        <br>
+                        <li><a href='#'>Join Kiditech</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col span-1-of-5">
+                    <ul class="footer-nav">
+                        <h3>Link</h3>
+                        <li><a href='#'>Contents</a></li>
+                        <br>
+                        <li><a href='#'>Events</a></li>
+                        <br>
+                        <li><a href='#'>Gallery</a></li>
+                        <br>
+                        <li><a href='#'>FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col span-1-of-5">
+                    <ul class="footer-nav">
+                        <h3>Support</h3>
+                        <li><a href='#'>Documentation</a></li>
+                        <br>
+                        <li><a href='#'>Forums</a></li>
+                        <br>
+                        <li><a href='#'>Language Packs</a></li>
+                        <br>
+                        <li><a href='#'>Release Status</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col span-1-of-5">
+                    <ul class="footer-nav">
+                        <h3>Recommend</h3>
+                        <li><a href='#'>Weekend Program</a></li>
+                        <br>
+                        <li><a href='#'>School Program</a></li>
+                        <br>
+                        <li><a href='#'>Curriculum</a></li>
+                        <br>
+                        <li><a href='#'>DONATE</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+                <div  class="row">
+                    <ul class="social-links">
+                        <li><a href="https://www.kiditech.com"><i class="ion-android-globe"></i></a></li>
+                        <li><a href="https://www.facebook.com/KiditechInc/"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/KiditechSupport"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC89mcF7I5SWfNx1E0uyHJDQ"><i class="ion-social-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/kiditech/"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2017 by Kiditech. All rights reserved.
+                </p>
+            </div>
+        </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
