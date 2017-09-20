@@ -289,6 +289,14 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+.contactBar{
+    width: 900px;
+    list-style: none;
+    position:absolute;
+    display: inline-block;
+    padding-left: 180px;
+}
+
 
 /* Mobile navi */
 .mobile-nav-icon {
@@ -618,7 +626,7 @@ cite img {
 /* ----------------------------------------------- */
 
 .contact-form {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -645,26 +653,26 @@ input[type=checkbox] {
 
 .map-box{
     width: 100%;
-    height: 500px;
+    height: 560px;
     position: relative;
 }
 
 .map{
     width: 100%;
-    height: 560px;
+    height: 610px;
     position: absolute;
     z-index: 0;
 }
 
 .form-box{
     position: relative;
-    width: 50%;
+    width: 100%;
     top: 0;
     right: 0;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 10;
     height: 560px;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 
@@ -681,7 +689,7 @@ footer {
 .footer-nav {
     list-style: none;
     float: right;
-    text-align: center; 
+    text-align: left; 
 }
 
 
