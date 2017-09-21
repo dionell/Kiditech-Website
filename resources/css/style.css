@@ -257,7 +257,7 @@ header {
 }
 
 /* Main navi */
-.main-nav {
+.   main-nav {
     float: right;
     list-style: none;
     z-index: 9999;
@@ -500,7 +500,7 @@ header {
     border-radius: 10px;
 }
 
-.city-feature {
+.course-feature {
     margin-bottom: 5px;
 }
 
