@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healty meals to as many people as possible.">
+        <meta name="description" content="">
         
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
         <title>Kiditech</title>
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-TileImage" content="/resources/favicons/mstile-144x144.png">
@@ -20,39 +21,65 @@
         
     </head>
     <body>
-        <section class = "sticky wonderdash">
             <nav>
-                <div class="row">
+                <div class="row firstBar">
+                    <div class = "item animated bounceInDown">
+                    <ul class="contactBar leftSide">
+                        <li><a href="loginUser.html">Questions?</a></li>
+                        <li><i class="ion-android-call icon-medium"></i><a href="#">(01) 408 673 8765</a></li>
+                        <li><i class="ion-android-mail icon-medium"></i><a href="mailto:support@kiditech.org" target="_top">support@kiditech.org</a></li>
+                        </ul>
+                    <ul class="contactBar rightSide">
+                        <li><a href="loginUser.html">Login</a></li>
+                        <li><a href="createUser.html">Register</a>
+                        <li><a href="#"><i class="ion-android-cart icon-medium"></i>Cart</a></li>
+                    </ul>
+                    <ul class="main-nav js--main-nav">
+                    </ul>
+                    </div>
+                </div>
+                
+                
+                <div class="row secondBar">
                     <div class = "item animated bounceInDown"><a href="index.html"><img src="resources/img/logo.png" alt="Kiditech logo" class="logo"></a></div>
                     <a href="index.html"><img src="resources/img/logo.png" alt="Kiditech logo" class="logo-black"></a>
                     <div class = "item animated bounceInDown">
                     <ul class="main-nav js--main-nav">
-                        <div class ="dropdown">
-                            <button class="dropbtn">KIDITECH</button>
+                        <li><a href="index.html">Home</a></li>
+                        <li class ="dropdown">
+                            <a href="#" class="dropbtn">Courses</a>
                             <div class="dropdown-content">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#features">About Us</a></li>
-                                <li><a href="#contact">Contact Us</a></li>
+                                <a href="#courses">View courses</a>
+                                <a href="EnrollCourses.html">Enroll</a>
                             </div>   
-                        </div>
-                        <div class ="dropdown">
-                            <button class="dropbtn">COURSES</button>
+                        </li>
+                        <li class ="dropdown">
+                            <a href="#" class="dropbtn">Programs</a>
                             <div class="dropdown-content">
-                                <li><a href="#courses">View courses</a></li>
-                                <li><a href="EnrollCourses.html">Enroll</a></li>
+                                <a href="#courses">School Program</a>
+                                <a href="EnrollCourses.html">Birthday Party</a>
                             </div>   
-                        </div>
-                        <li><a href="#works">School Program</a></li>
+                        </li>
+                        <li><a href="#works">Events</a></li>
+                        <li class ="dropdown">
+                            <a href="#" class="dropbtn">Features</a>
+                            <div class="dropdown-content">
+                                <a href="#features">About Us</a>
+                                <a href="#contact">Contact</a>
+                                <a href="#contact">Gallery</a>
+                                <a href="#contact">Blog</a>
+                                <a href="#contact">FAQs</a>
+                            </div>   
+                        </li>
+                        <li><a href="#works">Shop</a></li>
                         <li><a href="#">Donate</a>
                         </li>
-                        <li><a href="loginUser.html">Login </a> <a href="createUser.html"> / Register</a></li>
-                        <li><a href="#"><i class="ion-android-cart icon-medium"></i>Cart</a></li>
+                        <li><a href="#"><i class="ion-search icon-medium"></i></a></li>
                     </ul>
                     </div>
-                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="icon-small ion-navicon-round"></i></a>
                 </div>
             </nav>
-        </section>
  
     <section class="section-step" id="works">
         <div class="row">
@@ -108,6 +135,9 @@ Students will become familiar with every function in Scratch and challenge thems
 
             </div>
         </div>
+        <br>
+            <br>
+            <center><a href="index.html">Go back</a></center>
     </section>
     <footer>
             

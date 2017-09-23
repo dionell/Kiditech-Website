@@ -368,7 +368,7 @@ header {
 .sticky .logo { 
     display: none; 
 }
-.sticky .logo-black { 
+.sticky .logo-black  { 
     display: block; 
 }
 
@@ -378,7 +378,7 @@ header {
 }
 
 .sticky .dropdown-content{
-    background-color:rgba(241, 254, 255, 0.71);
+    background-color:rgb(255, 255, 255);
     margin-right: auto;
     margin-left: auto;
     text-align: left;
