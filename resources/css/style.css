@@ -338,6 +338,7 @@ header {
 .mobile-nav-icon i {
     font-size: 200%;
     color: #FF8F16;
+    float: right;
 }
 
 
@@ -374,12 +375,13 @@ header {
 .sticky .dropdown .dropbtn{
     color: #555;
     padding-bottom: 8px;
-        
 }
 
-.sticky .dropdown-content a{
-    
-    background-color: white;
+.sticky .dropdown-content{
+    background-color:rgba(241, 254, 255, 0.71);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
 }
 
 /* ----------------------------------------------- */
