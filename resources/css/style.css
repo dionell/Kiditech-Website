@@ -58,7 +58,6 @@ h1,
 h2,
 h3 {
     font-weight: 300;
-    text-transform: uppercase;
     font-family: 'Schoolbell', 'Arial', sans-serif;
 }
 
@@ -161,7 +160,7 @@ a:active {
 .btn,
 input[type=submit] {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 3px 20px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
@@ -413,6 +412,7 @@ header {
     font-size: 150%;
     text-align: center;
     float: none;
+    
 }
 
 
@@ -561,12 +561,14 @@ header {
 }
 
 .section-courses,
-.section-team{
+.section-team
+.section-school{
      background-color: rgb(247, 247, 247);
 }
 
 .section-courses h3,
-.section-team h3{
+.section-team h3,
+.section-school h3{
     text-align: center;
     font-size: 100%;
     color: #e67e22;
@@ -574,7 +576,8 @@ header {
 }
 
 .section-courses col,
-.section-team col{
+.section-team col,
+.section-school col{
     font-size: 95%;
 }
 
@@ -1048,11 +1051,10 @@ th, td{
 
 .mySlides {
     display:none;
+    padding: 50px 100px 0 100px;
 }
 
 .slideshowBtn{
     text-align: center;
-    padding: 40px;
+    padding: 10px;
 }
-
-
